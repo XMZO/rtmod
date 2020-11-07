@@ -9,12 +9,23 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "enchantedgoldenapple"
+    },
+    {
+      "name": "Explosion",
+      "type": "enchantment",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "explosion"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "enchantment.rt.explosion": "Explosion"
+    }
   },
   "workspaceSettings": {
     "modid": "rt",
