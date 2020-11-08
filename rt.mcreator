@@ -129,6 +129,164 @@
         "eb": true,
         "ec": true
       }
+    },
+    {
+      "name": "Plumlegging",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "plumlegging"
+    },
+    {
+      "name": "CreativeCommandExecuted",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "creative_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Creative",
+      "type": "command",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "creative"
+    },
+    {
+      "name": "SurvivalCommandExecuted",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "survival_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Survival",
+      "type": "command",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "survival"
+    },
+    {
+      "name": "AdventureCommandExecuted",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "adventure_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Adventure",
+      "type": "command",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "adventure"
+    },
+    {
+      "name": "SpectatorCommandExecuted",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spectator_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Spectator",
+      "type": "command",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "spectator"
+    },
+    {
+      "name": "Redcoal",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redcoal"
+    },
+    {
+      "name": "Coalred",
+      "type": "fuel",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coalred"
+    },
+    {
+      "name": "Redplumball",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redplumball"
+    },
+    {
+      "name": "Ball",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ball"
+    },
+    {
+      "name": "Coalre",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coalre"
     }
   ],
   "variable_elements": [],
@@ -136,6 +294,7 @@
   "language_map": {
     "en_us": {
       "enchantment.rt.explosion": "Explosion",
+      "item.rt.redcoal": "Red_coal",
       "item.rt.red_plumarmor_boots": "Red Plumarmor Boots",
       "block.rt.red_plum_ore": "RedPlum Ore",
       "item.rt.red_plumarmor_helmet": "Red Plumarmor Helmet",
@@ -143,17 +302,20 @@
       "item.rt.red_plum_ingot": "RedPlum",
       "itemGroup.tabredtechnologyblock": "Redtechnologyblock",
       "item.rt.red_plumarmor_chestplate": "Red Plumarmor Body",
+      "item.rt.redplumball": "Redplumball",
       "block.rt.red_plum_block": "Block of RedPlum"
     },
     "zh_cn": {
       "enchantment.rt.explosion": "±¬Õ¨",
+      "item.rt.redcoal": "ºìÃº",
       "item.rt.red_plumarmor_boots": "ºìÃ·Ñ¥×Ó",
       "block.rt.red_plum_ore": "ºìÃ·¿ó",
       "item.rt.red_plumarmor_helmet": "ºìÃ·Í·¿ø",
       "item.rt.red_plumarmor_leggings": "ºìÃ·»¤ÍÈ",
       "item.rt.red_plum_ingot": "ºìÃ·",
       "itemGroup.tabredtechnologyblock": "ºìÉ«¿Æ¼¼-·½¿é",
-      "item.rt.red_plumarmor_chestplate": "ºìÃ·»¤¼×",
+      "item.rt.red_plumarmor_chestplate": "ºìÃ·ÐØ¼×",
+      "item.rt.redplumball": "ºìÃ·Çò",
       "block.rt.red_plum_block": "ºìÃ·¿é"
     }
   },

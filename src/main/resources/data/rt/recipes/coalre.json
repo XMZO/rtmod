@@ -1,0 +1,16 @@
+{
+  "group": "rt",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "rt:redplumball"
+    },
+    {
+      "item": "minecraft:coal"
+    }
+  ],
+  "result": {
+    "item": "rt:redcoal",
+    "count": 1
+  }
+}

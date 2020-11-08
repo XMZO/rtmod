@@ -1,0 +1,11 @@
+{
+  "_fv": 10,
+  "_type": "command",
+  "definition": {
+    "commandName": "gamemode 1",
+    "permissionLevel": 4,
+    "onCommandExecuted": {
+      "name": "CreativeCommandExecuted"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_fv": 10,
+  "_type": "command",
+  "definition": {
+    "commandName": "gamemode 2",
+    "permissionLevel": 4,
+    "onCommandExecuted": {
+      "name": "AdventureCommandExecuted"
+    }
+  }
+}
