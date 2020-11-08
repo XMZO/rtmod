@@ -1,12 +1,12 @@
 
 package xmzo.redtechnology.item;
 
+import xmzo.redtechnology.itemgroup.MiscellaneousItemGroup;
 import xmzo.redtechnology.RtModElements;
 
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
@@ -24,7 +24,7 @@ public class RedcoalItem extends RtModElements.ModElement {
 	}
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(64));
+			super(new Item.Properties().group(MiscellaneousItemGroup.tab).maxStackSize(64));
 			setRegistryName("redcoal");
 		}
 

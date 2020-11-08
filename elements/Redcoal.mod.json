@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "name": "Red_coal",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:Miscellaneous"
     },
     "stackSize": 64,
     "enchantability": 0,

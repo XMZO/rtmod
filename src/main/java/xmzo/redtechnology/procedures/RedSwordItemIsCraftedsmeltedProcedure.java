@@ -6,11 +6,16 @@ import xmzo.redtechnology.RtModElements;
 
 import net.minecraftforge.items.ItemHandlerHelper;
 
+import net.minecraft.world.GameType;
 import net.minecraft.util.text.StringTextComponent;
 import net.minecraft.item.Items;
 import net.minecraft.item.ItemStack;
+import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.Entity;
+import net.minecraft.client.network.play.NetworkPlayerInfo;
+import net.minecraft.client.entity.player.ClientPlayerEntity;
+import net.minecraft.client.Minecraft;
 
 import java.util.Map;
 
@@ -29,7 +34,18 @@ public class RedSwordItemIsCraftedsmeltedProcedure extends RtModElements.ModElem
 		if ((((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).experienceLevel : 0) >= 10)) {
 			if (entity instanceof PlayerEntity)
 				((PlayerEntity) entity).addExperienceLevel(-((int) 10));
-		} else {
+		} else if ((new Object() {
+			public boolean checkGamemode(Entity _ent) {
+				if (_ent instanceof ServerPlayerEntity) {
+					return ((ServerPlayerEntity) _ent).interactionManager.getGameType() == GameType.SURVIVAL;
+				} else if (_ent instanceof PlayerEntity && _ent.world.isRemote) {
+					NetworkPlayerInfo _npi = Minecraft.getInstance().getConnection()
+							.getPlayerInfo(((ClientPlayerEntity) _ent).getGameProfile().getId());
+					return _npi != null && _npi.getGameType() == GameType.SURVIVAL;
+				}
+				return false;
+			}
+		}.checkGamemode(entity))) {
 			if (entity instanceof PlayerEntity)
 				((PlayerEntity) entity).inventory.clearMatchingItems(p -> new ItemStack(RedSwordItem.block, (int) (1)).getItem() == p.getItem(),
 						(int) 1);
