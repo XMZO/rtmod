@@ -1,30 +1,31 @@
 
 package xmzo.redtechnology.enchantment;
 
+import xmzo.redtechnology.item.RedSwordItem;
 import xmzo.redtechnology.RtModElements;
 
 import net.minecraftforge.registries.ObjectHolder;
 
+import net.minecraft.item.ItemStack;
 import net.minecraft.inventory.EquipmentSlotType;
-import net.minecraft.enchantment.Enchantments;
 import net.minecraft.enchantment.EnchantmentType;
 import net.minecraft.enchantment.Enchantment;
 
 @RtModElements.ModElement.Tag
-public class ExplosionEnchantment extends RtModElements.ModElement {
-	@ObjectHolder("rt:explosion")
+public class AntiAuthorEnchantment extends RtModElements.ModElement {
+	@ObjectHolder("rt:anti_author")
 	public static final Enchantment enchantment = null;
-	public ExplosionEnchantment(RtModElements instance) {
-		super(instance, 2);
+	public AntiAuthorEnchantment(RtModElements instance) {
+		super(instance, 37);
 	}
 
 	@Override
 	public void initElements() {
-		elements.enchantments.add(() -> new CustomEnchantment(EquipmentSlotType.MAINHAND).setRegistryName("explosion"));
+		elements.enchantments.add(() -> new CustomEnchantment(EquipmentSlotType.MAINHAND).setRegistryName("anti_author"));
 	}
 	public static class CustomEnchantment extends Enchantment {
 		public CustomEnchantment(EquipmentSlotType... slots) {
-			super(Enchantment.Rarity.RARE, EnchantmentType.WEAPON, slots);
+			super(Enchantment.Rarity.VERY_RARE, EnchantmentType.WEAPON, slots);
 		}
 
 		@Override
@@ -34,19 +35,19 @@ public class ExplosionEnchantment extends RtModElements.ModElement {
 
 		@Override
 		public int getMaxLevel() {
-			return 3;
+			return 1;
 		}
 
 		@Override
-		protected boolean canApplyTogether(Enchantment ench) {
-			if (ench != Enchantments.SWEEPING)
+		public boolean canApplyAtEnchantingTable(ItemStack stack) {
+			if (stack.getItem() == new ItemStack(RedSwordItem.block, (int) (1)).getItem())
 				return true;
 			return false;
 		}
 
 		@Override
 		public boolean isTreasureEnchantment() {
-			return true;
+			return false;
 		}
 
 		@Override

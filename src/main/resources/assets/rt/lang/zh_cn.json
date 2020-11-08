@@ -1,4 +1,6 @@
 {
+  "entity.rt.author": "作者",
+  "enchantment.rt.anti_author": "反作者",
   "item.rt.red_plumarmor_boots": "红梅靴子",
   "block.rt.red_plum_ore": "红梅矿",
   "item.rt.red_plumarmor_leggings": "红梅护腿",
@@ -10,6 +12,7 @@
   "item.rt.red_pickaxe": "红梅镐",
   "enchantment.rt.explosion": "爆炸",
   "item.rt.redcoal": "红煤",
+  "item.rt.author": "生成 作者",
   "itemGroup.tabmiscellaneous": "红色科技-杂项",
   "item.rt.red_shovel": "红梅铲",
   "item.rt.red_sword": "红梅剑",

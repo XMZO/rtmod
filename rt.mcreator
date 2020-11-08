@@ -316,12 +316,82 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "miscellaneous"
+    },
+    {
+      "name": "AuthorParticleSpawningCondition",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "author_particle_spawning_condition",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Author",
+      "type": "mob",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "author"
+    },
+    {
+      "name": "AuthorEntityIsHurt",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "author_entity_is_hurt",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AntiAuthor",
+      "type": "enchantment",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "anti_author"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "entity.rt.author": "Author",
+      "enchantment.rt.anti_author": "Anti Author",
       "item.rt.red_plumarmor_boots": "Red Plumarmor Boots",
       "block.rt.red_plum_ore": "RedPlum Ore",
       "item.rt.red_plumarmor_leggings": "Red Plumarmor Leggings",
@@ -333,6 +403,7 @@
       "item.rt.red_pickaxe": "Red Pickaxe",
       "enchantment.rt.explosion": "Explosion",
       "item.rt.redcoal": "Red_coal",
+      "item.rt.author": "Author Spawn Egg",
       "itemGroup.tabmiscellaneous": "Redtechnology Miscellaneous",
       "item.rt.red_shovel": "Red Shovel",
       "item.rt.red_sword": "Red Sword",
@@ -341,6 +412,8 @@
       "block.rt.red_plum_block": "Block of RedPlum"
     },
     "zh_cn": {
+      "entity.rt.author": "作者",
+      "enchantment.rt.anti_author": "反作者",
       "item.rt.red_plumarmor_boots": "红梅靴子",
       "block.rt.red_plum_ore": "红梅矿",
       "item.rt.red_plumarmor_leggings": "红梅护腿",
@@ -352,6 +425,7 @@
       "item.rt.red_pickaxe": "红梅镐",
       "enchantment.rt.explosion": "爆炸",
       "item.rt.redcoal": "红煤",
+      "item.rt.author": "生成 作者",
       "itemGroup.tabmiscellaneous": "红色科技-杂项",
       "item.rt.red_shovel": "红梅铲",
       "item.rt.red_sword": "红梅剑",

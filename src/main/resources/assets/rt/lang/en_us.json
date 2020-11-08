@@ -1,4 +1,6 @@
 {
+  "entity.rt.author": "Author",
+  "enchantment.rt.anti_author": "Anti Author",
   "item.rt.red_plumarmor_boots": "Red Plumarmor Boots",
   "block.rt.red_plum_ore": "RedPlum Ore",
   "item.rt.red_plumarmor_leggings": "Red Plumarmor Leggings",
@@ -10,6 +12,7 @@
   "item.rt.red_pickaxe": "Red Pickaxe",
   "enchantment.rt.explosion": "Explosion",
   "item.rt.redcoal": "Red_coal",
+  "item.rt.author": "Author Spawn Egg",
   "itemGroup.tabmiscellaneous": "Redtechnology Miscellaneous",
   "item.rt.red_shovel": "Red Shovel",
   "item.rt.red_sword": "Red Sword",
