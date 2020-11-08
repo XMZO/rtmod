@@ -15,7 +15,7 @@
       "type": "enchantment",
       "sortid": 2,
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "ids": {},
       "registry_name": "explosion"
     },
@@ -72,6 +72,63 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "red_plum_ore_smelting"
+    },
+    {
+      "name": "Redtechnologyblock",
+      "type": "tab",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "redtechnologyblock"
+    },
+    {
+      "name": "ProduceExplosion",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "produce_explosion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RedPlumarmor",
+      "type": "armor",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_plumarmor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
     }
   ],
   "variable_elements": [],
@@ -79,14 +136,24 @@
   "language_map": {
     "en_us": {
       "enchantment.rt.explosion": "Explosion",
+      "item.rt.red_plumarmor_boots": "Red Plumarmor Boots",
       "block.rt.red_plum_ore": "RedPlum Ore",
+      "item.rt.red_plumarmor_helmet": "Red Plumarmor Helmet",
+      "item.rt.red_plumarmor_leggings": "Red Plumarmor Leggings",
       "item.rt.red_plum_ingot": "RedPlum",
+      "itemGroup.tabredtechnologyblock": "Redtechnologyblock",
+      "item.rt.red_plumarmor_chestplate": "Red Plumarmor Body",
       "block.rt.red_plum_block": "Block of RedPlum"
     },
     "zh_cn": {
       "enchantment.rt.explosion": "±¬Õ¨",
+      "item.rt.red_plumarmor_boots": "ºìÃ·Ñ¥×Ó",
       "block.rt.red_plum_ore": "ºìÃ·¿ó",
+      "item.rt.red_plumarmor_helmet": "ºìÃ·Í·¿ø",
+      "item.rt.red_plumarmor_leggings": "ºìÃ·»¤ÍÈ",
       "item.rt.red_plum_ingot": "ºìÃ·",
+      "itemGroup.tabredtechnologyblock": "ºìÉ«¿Æ¼¼-·½¿é",
+      "item.rt.red_plumarmor_chestplate": "ºìÃ·»¤¼×",
       "block.rt.red_plum_block": "ºìÃ·¿é"
     }
   },

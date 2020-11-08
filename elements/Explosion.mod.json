@@ -4,11 +4,15 @@
   "definition": {
     "name": "Explosion",
     "type": "WEAPON",
-    "rarity": "RARE",
+    "rarity": "VERY_RARE",
     "minLevel": 1,
-    "maxLevel": 5,
-    "damageModifier": 1,
-    "compatibleEnchantments": [],
+    "maxLevel": 3,
+    "damageModifier": 0,
+    "compatibleEnchantments": [
+      {
+        "value": "SWEEPING"
+      }
+    ],
     "compatibleItems": [],
     "isTreasureEnchantment": true,
     "isCurse": false,

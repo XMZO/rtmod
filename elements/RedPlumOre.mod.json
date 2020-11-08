@@ -24,11 +24,11 @@
     "Mz": 1.0,
     "name": "RedPlum Ore",
     "specialInfo": [],
-    "hardness": 3.0,
+    "hardness": 3.1999999999999997,
     "resistance": 5.0,
     "hasGravity": false,
     "creativeTab": {
-      "value": "BUILDING_BLOCKS"
+      "value": "CUSTOM:Redtechnologyblock"
     },
     "destroyTool": "pickaxe",
     "customDrop": {
@@ -39,7 +39,7 @@
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canProvidePower": false,
-    "lightOpacity": 255,
+    "lightOpacity": 250,
     "material": {
       "value": "ROCK"
     },
@@ -89,17 +89,21 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "spawnWorldTypes": [
-      "Surface"
+      "Surface",
+      "End"
     ],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
         "value": "Blocks.STONE"
+      },
+      {
+        "value": "Blocks.DIAMOND_ORE"
       }
     ],
-    "frequencyPerChunks": 11,
+    "frequencyPerChunks": 2,
     "frequencyOnChunk": 7,
-    "minGenerateHeight": 1,
-    "maxGenerateHeight": 63
+    "minGenerateHeight": 5,
+    "maxGenerateHeight": 60
   }
 }

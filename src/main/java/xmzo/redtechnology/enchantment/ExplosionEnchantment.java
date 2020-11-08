@@ -5,8 +5,8 @@ import xmzo.redtechnology.RtModElements;
 
 import net.minecraftforge.registries.ObjectHolder;
 
-import net.minecraft.util.DamageSource;
 import net.minecraft.inventory.EquipmentSlotType;
+import net.minecraft.enchantment.Enchantments;
 import net.minecraft.enchantment.EnchantmentType;
 import net.minecraft.enchantment.Enchantment;
 
@@ -24,7 +24,7 @@ public class ExplosionEnchantment extends RtModElements.ModElement {
 	}
 	public static class CustomEnchantment extends Enchantment {
 		public CustomEnchantment(EquipmentSlotType... slots) {
-			super(Enchantment.Rarity.RARE, EnchantmentType.WEAPON, slots);
+			super(Enchantment.Rarity.VERY_RARE, EnchantmentType.WEAPON, slots);
 		}
 
 		@Override
@@ -34,12 +34,14 @@ public class ExplosionEnchantment extends RtModElements.ModElement {
 
 		@Override
 		public int getMaxLevel() {
-			return 5;
+			return 3;
 		}
 
 		@Override
-		public int calcModifierDamage(int level, DamageSource source) {
-			return level * 1;
+		protected boolean canApplyTogether(Enchantment ench) {
+			if (ench != Enchantments.SWEEPING)
+				return true;
+			return false;
 		}
 
 		@Override

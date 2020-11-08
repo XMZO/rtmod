@@ -1,0 +1,11 @@
+{
+  "_fv": 10,
+  "_type": "tab",
+  "definition": {
+    "name": "Redtechnologyblock",
+    "icon": {
+      "value": "CUSTOM:RedPlumOreBlock"
+    },
+    "showSearch": false
+  }
+}
