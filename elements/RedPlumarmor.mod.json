@@ -10,6 +10,9 @@
     "textureLeggings": "redplum_armor_leggings",
     "enableBoots": true,
     "textureBoots": "redplum_armor_boots",
+    "onBodyTick": {
+      "name": "RedPlumarmorBodyTickEvent"
+    },
     "creativeTab": {
       "value": "COMBAT"
     },

@@ -1,13 +1,19 @@
 {
-  "enchantment.rt.explosion": "Explosion",
-  "item.rt.redcoal": "Red_coal",
   "item.rt.red_plumarmor_boots": "Red Plumarmor Boots",
   "block.rt.red_plum_ore": "RedPlum Ore",
-  "item.rt.red_plumarmor_helmet": "Red Plumarmor Helmet",
   "item.rt.red_plumarmor_leggings": "Red Plumarmor Leggings",
+  "item.rt.red_axe": "Red Axe",
   "item.rt.red_plum_ingot": "RedPlum",
   "itemGroup.tabredtechnologyblock": "Redtechnologyblock",
   "item.rt.red_plumarmor_chestplate": "Red Plumarmor Body",
   "item.rt.redplumball": "Redplumball",
+  "item.rt.red_pickaxe": "Red Pickaxe",
+  "enchantment.rt.explosion": "Explosion",
+  "item.rt.redcoal": "Red_coal",
+  "itemGroup.tabmiscellaneous": "Redtechnology Miscellaneous",
+  "item.rt.red_shovel": "Red Shovel",
+  "item.rt.red_sword": "Red Sword",
+  "item.rt.red_plumarmor_helmet": "Red Plumarmor Helmet",
+  "item.rt.red_hoe": "Red Hoe",
   "block.rt.red_plum_block": "Block of RedPlum"
 }

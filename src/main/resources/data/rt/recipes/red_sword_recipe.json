@@ -1,0 +1,24 @@
+{
+  "group": "rt",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "rt:red_plum_ingot"
+    },
+    "1": {
+      "item": "rt:red_plum_ingot"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "rt:red_sword",
+    "count": 1
+  }
+}

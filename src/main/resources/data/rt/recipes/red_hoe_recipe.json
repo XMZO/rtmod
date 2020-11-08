@@ -1,0 +1,27 @@
+{
+  "group": "rt",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    " 3",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "rt:red_plum_ingot"
+    },
+    "1": {
+      "item": "rt:red_plum_ingot"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "rt:red_hoe",
+    "count": 1
+  }
+}

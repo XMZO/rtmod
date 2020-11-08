@@ -1,13 +1,19 @@
 {
-  "enchantment.rt.explosion": "爆炸",
-  "item.rt.redcoal": "红煤",
   "item.rt.red_plumarmor_boots": "红梅靴子",
   "block.rt.red_plum_ore": "红梅矿",
-  "item.rt.red_plumarmor_helmet": "红梅头盔",
   "item.rt.red_plumarmor_leggings": "红梅护腿",
-  "item.rt.red_plum_ingot": "红梅",
+  "item.rt.red_axe": "红梅斧",
+  "item.rt.red_plum_ingot": "红梅锭",
   "itemGroup.tabredtechnologyblock": "红色科技-方块",
   "item.rt.red_plumarmor_chestplate": "红梅胸甲",
   "item.rt.redplumball": "红梅球",
+  "item.rt.red_pickaxe": "红梅镐",
+  "enchantment.rt.explosion": "爆炸",
+  "item.rt.redcoal": "红煤",
+  "itemGroup.tabmiscellaneous": "红色科技-杂项",
+  "item.rt.red_shovel": "红梅铲",
+  "item.rt.red_sword": "红梅剑",
+  "item.rt.red_plumarmor_helmet": "红梅头盔",
+  "item.rt.red_hoe": "红梅锄",
   "block.rt.red_plum_block": "红梅块"
 }

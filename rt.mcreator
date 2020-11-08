@@ -287,35 +287,180 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "coalre"
+    },
+    {
+      "name": "RedPlumarmorBodyTickEvent",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_plumarmor_body_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RedPickaxe",
+      "type": "tool",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_pickaxe"
+    },
+    {
+      "name": "RedAxe",
+      "type": "tool",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_axe"
+    },
+    {
+      "name": "RedSword",
+      "type": "tool",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_sword"
+    },
+    {
+      "name": "RedShovel",
+      "type": "tool",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_shovel"
+    },
+    {
+      "name": "RedHoe",
+      "type": "tool",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_hoe"
+    },
+    {
+      "name": "RedPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_pickaxe_recipe"
+    },
+    {
+      "name": "RedAxeRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_axe_recipe"
+    },
+    {
+      "name": "RedSwordRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_sword_recipe"
+    },
+    {
+      "name": "RedShovelRecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_shovel_recipe"
+    },
+    {
+      "name": "RedHoeRecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_hoe_recipe"
+    },
+    {
+      "name": "RedSwordItemIsCraftedsmelted",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_sword_item_is_craftedsmelted",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Miscellaneous",
+      "type": "tab",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "miscellaneous"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "enchantment.rt.explosion": "Explosion",
-      "item.rt.redcoal": "Red_coal",
       "item.rt.red_plumarmor_boots": "Red Plumarmor Boots",
       "block.rt.red_plum_ore": "RedPlum Ore",
-      "item.rt.red_plumarmor_helmet": "Red Plumarmor Helmet",
       "item.rt.red_plumarmor_leggings": "Red Plumarmor Leggings",
+      "item.rt.red_axe": "Red Axe",
       "item.rt.red_plum_ingot": "RedPlum",
       "itemGroup.tabredtechnologyblock": "Redtechnologyblock",
       "item.rt.red_plumarmor_chestplate": "Red Plumarmor Body",
       "item.rt.redplumball": "Redplumball",
+      "item.rt.red_pickaxe": "Red Pickaxe",
+      "enchantment.rt.explosion": "Explosion",
+      "item.rt.redcoal": "Red_coal",
+      "itemGroup.tabmiscellaneous": "Redtechnology Miscellaneous",
+      "item.rt.red_shovel": "Red Shovel",
+      "item.rt.red_sword": "Red Sword",
+      "item.rt.red_plumarmor_helmet": "Red Plumarmor Helmet",
+      "item.rt.red_hoe": "Red Hoe",
       "block.rt.red_plum_block": "Block of RedPlum"
     },
     "zh_cn": {
-      "enchantment.rt.explosion": "±¨’®",
-      "item.rt.redcoal": "∫Ï√∫",
       "item.rt.red_plumarmor_boots": "∫Ï√∑—•◊”",
       "block.rt.red_plum_ore": "∫Ï√∑øÛ",
-      "item.rt.red_plumarmor_helmet": "∫Ï√∑Õ∑ø¯",
       "item.rt.red_plumarmor_leggings": "∫Ï√∑ª§Õ»",
-      "item.rt.red_plum_ingot": "∫Ï√∑",
+      "item.rt.red_axe": "∫Ï√∑∏´",
+      "item.rt.red_plum_ingot": "∫Ï√∑∂ß",
       "itemGroup.tabredtechnologyblock": "∫Ï…´ø∆ºº-∑ΩøÈ",
       "item.rt.red_plumarmor_chestplate": "∫Ï√∑–ÿº◊",
       "item.rt.redplumball": "∫Ï√∑«Ú",
+      "item.rt.red_pickaxe": "∫Ï√∑∏‰",
+      "enchantment.rt.explosion": "±¨’®",
+      "item.rt.redcoal": "∫Ï√∫",
+      "itemGroup.tabmiscellaneous": "∫Ï…´ø∆ºº-‘”œÓ",
+      "item.rt.red_shovel": "∫Ï√∑≤˘",
+      "item.rt.red_sword": "∫Ï√∑Ω£",
+      "item.rt.red_plumarmor_helmet": "∫Ï√∑Õ∑ø¯",
+      "item.rt.red_hoe": "∫Ï√∑≥˙",
       "block.rt.red_plum_block": "∫Ï√∑øÈ"
     }
   },
