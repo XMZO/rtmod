@@ -1,3 +1,6 @@
 {
-  "enchantment.rt.explosion": "Explosion"
+  "enchantment.rt.explosion": "Explosion",
+  "block.rt.red_plum_ore": "RedPlum Ore",
+  "item.rt.red_plum_ingot": "RedPlum",
+  "block.rt.red_plum_block": "Block of RedPlum"
 }

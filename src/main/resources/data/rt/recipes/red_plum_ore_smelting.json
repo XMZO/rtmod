@@ -1,0 +1,12 @@
+{
+  "group": "rt",
+  "type": "minecraft:smelting",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "rt:red_plum_ore"
+  },
+  "result": {
+    "item": "rt:red_plum_ingot"
+  }
+}

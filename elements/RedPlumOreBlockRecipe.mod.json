@@ -1,0 +1,46 @@
+{
+  "_fv": 10,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:RedPlumIngot"
+      },
+      {
+        "value": "CUSTOM:RedPlumIngot"
+      },
+      {
+        "value": "CUSTOM:RedPlumIngot"
+      },
+      {
+        "value": "CUSTOM:RedPlumIngot"
+      },
+      {
+        "value": "CUSTOM:RedPlumIngot"
+      },
+      {
+        "value": "CUSTOM:RedPlumIngot"
+      },
+      {
+        "value": "CUSTOM:RedPlumIngot"
+      },
+      {
+        "value": "CUSTOM:RedPlumIngot"
+      },
+      {
+        "value": "CUSTOM:RedPlumIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RedPlumOreBlock"
+    },
+    "name": "red_plum_ore_block_recipe",
+    "namespace": "mod"
+  }
+}

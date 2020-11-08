@@ -1,0 +1,42 @@
+{
+  "group": "rt",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "rt:red_plum_ingot"
+    },
+    "1": {
+      "item": "rt:red_plum_ingot"
+    },
+    "2": {
+      "item": "rt:red_plum_ingot"
+    },
+    "3": {
+      "item": "rt:red_plum_ingot"
+    },
+    "4": {
+      "item": "rt:red_plum_ingot"
+    },
+    "5": {
+      "item": "rt:red_plum_ingot"
+    },
+    "6": {
+      "item": "rt:red_plum_ingot"
+    },
+    "7": {
+      "item": "rt:red_plum_ingot"
+    },
+    "8": {
+      "item": "rt:red_plum_ingot"
+    }
+  },
+  "result": {
+    "item": "rt:red_plum_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "group": "rt",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "rt:red_plum_block"
+    }
+  ],
+  "result": {
+    "item": "rt:red_plum_ingot",
+    "count": 9
+  }
+}

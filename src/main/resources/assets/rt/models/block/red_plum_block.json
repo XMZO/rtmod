@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "rt:blocks/redplum_ore_block",
+    "particle": "rt:blocks/redplum_ore_block"
+  }
+}

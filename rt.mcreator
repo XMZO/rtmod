@@ -18,13 +18,76 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "explosion"
+    },
+    {
+      "name": "RedPlumIngot",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_plum_ingot"
+    },
+    {
+      "name": "RedPlumOre",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_plum_ore"
+    },
+    {
+      "name": "RedPlumOreBlock",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_plum_block"
+    },
+    {
+      "name": "RedPlumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_plum_ore_block_recipe"
+    },
+    {
+      "name": "RedPlumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_plum_block_ore_recipe"
+    },
+    {
+      "name": "RedPlumOreSmelting",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "red_plum_ore_smelting"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "enchantment.rt.explosion": "Explosion"
+      "enchantment.rt.explosion": "Explosion",
+      "block.rt.red_plum_ore": "RedPlum Ore",
+      "item.rt.red_plum_ingot": "RedPlum",
+      "block.rt.red_plum_block": "Block of RedPlum"
+    },
+    "zh_cn": {
+      "enchantment.rt.explosion": "±¨’®",
+      "block.rt.red_plum_ore": "∫Ï√∑øÛ",
+      "item.rt.red_plum_ingot": "∫Ï√∑",
+      "block.rt.red_plum_block": "∫Ï√∑øÈ"
     }
   },
   "workspaceSettings": {
